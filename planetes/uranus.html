@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uranus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="../images/uranus.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.html">
+	<link rel="stylesheet" href="../css/styleuranus.css">
+
+    <style>
+        .container {
+          position: absolute;
+          top: 10%;
+        }
+        .button {
+          border: none;
+          display: block;
+          text-align: center;
+          cursor: pointer;
+          text-transform: uppercase;
+          outline: none;
+          overflow: hidden;
+          position: relative;
+          color: #eeeeee;
+          font-weight: 600;
+          font-size: 15px;
+          border-radius: 10px;
+          background-color: #8B4513;
+          padding: 15px 50px;
+          margin: 0 auto;
+        }
+        .button span {
+          position: relative;
+          z-index: 1;
+        }
+        .button:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 470%;
+          width: 140%;
+          background: #ffd900;
+          -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+          -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+          transform: translateX(-100%) translateY(-25%) rotate(45deg);
+        }
+        .button:hover:after {
+          -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+          transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        }
+      </style>
+</head>
+<body>
+<div class="title">
+<h1>la planète glacée </h1>
+</div>
+<div class="uranus1">
+<p>Uranus est une planète géante gazeuse du système solaire, la septième planète en partant du Soleil. Elle est située à environ 
+    2,9 milliards de kilomètres de la Terre. Uranus est la troisième plus grande planète du système solaire après Jupiter et Saturne,
+     avec un diamètre d'environ 51 118 km.
+    <br><br>
+    La couleur bleue-vert caractéristique d'Uranus est due à la présence de méthane dans son atmosphère. La planète possède 
+    également des anneaux, bien qu'ils soient moins visibles que ceux de Saturne. Uranus possède 27 satellites connus, dont les 
+    cinq plus grands sont Miranda, Ariel, Umbriel, Titania et Oberon.
+   </p>
+</div>
+<div class="uranus2">
+    <p> Uranus est unique dans le système solaire en raison de l'angle important de son axe de rotation, qui est
+         incliné de près de 98 degrés par rapport à son orbite autour du Soleil. Cela signifie que les pôles d'Uranus sont 
+         orientés vers le Soleil à tour de rôle au cours de son orbite, ce qui entraîne des saisons très longues et extrêmes.</p>
+</div>
+<div class="lien">
+  <div class="container">
+  <button type="button" class="button">
+            <span><li style="text-decoration: none; list-style: none;"><a href="../système.html" style="text-decoration: none; list-style: none;">Le système solaire</a></li></span>
+          </button>
+  </div>
+</div>
+<p class="copy">&copy janvier 2023</p>
+</body>
+</html>
