@@ -1,0 +1,87 @@
+body {
+    background-image : url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/c/5/3/c5304d4903_99074_rotation-soleil.jpg") ;
+    background-repeat : repeat;
+    background-size: 90%;
+}
+.title {
+	 text-align:center ;
+    opacity: 90%;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    border: 1px solid black;
+    background-color: bisque;
+    padding: 0;
+    border-color: black;
+    border-radius: 30px;
+}
+
+
+.soleil1 {
+    float: left;
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    background-color: bisque;
+    margin-top: 15%;
+    width: 23%;
+    height: 80%;
+    opacity: 80%;
+    border-color:black ;
+    border-radius: 10px;
+}
+
+.soleil1 p {
+	margin-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    text-align:justify;
+    padding: 0,5%;
+    padding-right: 1%;
+    font-size:medium;
+    font-weight:400;
+}
+.soleil2 {
+    float: right;
+    font-family: 'Varela Round', sans-serif;
+    background-color: bisque;
+    margin-right: 1%;
+    margin-top: 11%;
+    
+    width: 32%;
+    height: 80%;
+    opacity: 80%;
+    border-color:black ;
+    border-radius: 10px;
+}
+
+.soleil2 p {
+    
+	margin-left: 1%;
+    padding-top: 1%;
+    text-align:justify;
+    padding: 0,5%;
+    padding-right: 1%;
+    font-size:medium;
+    font-weight:400;
+}
+.soleil2 a {
+    color:blue
+}
+p.copy {
+	position: absolute;
+	bottom:0%;
+	color: #ffffff;
+}
+
+.container {
+    margin-top: 35%;
+    float: right;
+    margin-left: 2%;
+}
+a {
+	font-family: 'Varela Round', sans-serif;
+	color : #FFFFFF
+}
+.lien {
+    float: right;
+    margin-right: -9%;
+}

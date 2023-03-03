@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon" href="../images/venus.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.html">
+	<link rel="stylesheet" href="../css/stylevenus.css">
+
+    <style>
+        .container {
+          position: absolute;
+          top: 10%;
+        }
+        .button {
+          border: none;
+          display: block;
+          text-align: center;
+          cursor: pointer;
+          text-transform: uppercase;
+          outline: none;
+          overflow: hidden;
+          position: relative;
+          color: #eeeeee;
+          font-weight: 600;
+          font-size: 15px;
+          border-radius: 10px;
+          background-color: #8B4513;
+          padding: 15px 50px;
+          margin: 0 auto;
+        }
+        .button span {
+          position: relative;
+          z-index: 1;
+        }
+        .button:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 470%;
+          width: 140%;
+          background: #ffd900;
+          -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+          -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+          transform: translateX(-100%) translateY(-25%) rotate(45deg);
+        }
+        .button:hover:after {
+          -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+          transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        }
+      </style>
+</head>
+<body>
+<div class="title">
+<h1>La planète chaude </h1>
+</div>
+<div class="Venus1">
+<p>Vénus est la planète la plus brillante du ciel nocturne après la Lune, et peut être vue à l'œil nu depuis la Terre. C'est pourquoi
+     elle est souvent appelée "l'étoile du berger".
+    Vénus a été nommée d'après la déesse romaine de l'amour et de la beauté en raison de sa brillance dans le ciel.
+    <br><br>
+    La première mission spatiale à Vénus a été lancée en 1961 par l'Union soviétique. Depuis lors, de nombreuses missions ont été 
+    envoyées pour étudier la planète, y compris la mission Magellan de la NASA dans les années 1990 qui a cartographié la surface 
+    de Vénus.
+    <br><br>
+   </p>
+</div>
+<div class="Venus2">
+    <p> Les conditions extrêmes sur Vénus font de la planète un endroit très difficile à explorer pour les êtres humains. La pression 
+        atmosphérique à la surface de Vénus est environ 90 fois plus élevée que celle de la Terre, ce qui équivaut à la pression que l'on
+         ressent à une profondeur d'environ un kilomètre sous l'eau. De plus, la température à la surface est très élevée, en moyenne 460°C.
+        <br><br>
+        Malgré les conditions extrêmes, certains scientifiques ont suggéré que Vénus aurait pu être habitable dans le passé. Des études ont 
+        montré que Vénus avait peut-être des océans d'eau liquide il y a des milliards d'années, mais ils auraient été évaporés à mesure que
+         la planète se réchauffait.
+        Vénus est également connue pour son phénomène atmosphérique appelé l'effet de serre renforcé, qui est causé par la densité de 
+        l'atmosphère de la planète et son abondance en dioxyde de carbone. Cela a des implications importantes pour la compréhension de
+         l'effet de serre sur Terre et pour la recherche de la vie dans l'univers.</p>
+</div>
+<div class="lien">
+  <div class="container">
+  <button type="button" class="button">
+            <span><li style="text-decoration: none; list-style: none;"><a href="../système.html" style="text-decoration: none; list-style: none;">Le système solaire</a></li></span>
+          </button>
+  </div>
+</div>
+<p class="copy">&copy janvier 2023</p>
+</body>
+</html>
